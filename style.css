@@ -1,0 +1,33 @@
+/* Colors for the website */
+
+/* 
+
+#9D1535 = Maroon
+
+#949594 = Gray
+
+#FFFFFE = White
+
+*/
+
+body {
+    background: #FFFFFE
+}
+
+.header {
+    width:auto;
+    height:30vw;
+    min-height:300px;
+    background: #9D1535;
+    color: #FFFFFE;
+    margin: 200px auto;
+}
+
+.header-text {
+    font-size: 5vw;
+}
+
+.header-img {
+    width: 20vw;
+    min-width:200px;
+}
