@@ -14,9 +14,13 @@ body {
     background: #FFFFFE
 }
 
+.navbar {
+    background: #9D1535;
+    height:100px;
+}
+
 .header {
-    height:500px;
-    min-height:300px;
+    height:700px;
     background: #9D1535;
     color: #FFFFFE;
 }
@@ -26,7 +30,8 @@ body {
 }
 
 .header-img {
-    /* background: url(imgs/STIT-header.jpg); */
+    background: blue;
+    background: url(imgs/STIT-header.png);
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center, center;
