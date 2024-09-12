@@ -15,8 +15,13 @@ body {
 }
 
 .navbar {
-    background: #9D1535;
-    height:100px;
+    background: #949594;
+    height:120px;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
 }
 
 .header {
@@ -30,7 +35,6 @@ body {
 }
 
 .header-img {
-    background: blue;
     background: url(imgs/STIT-header.png);
     background-repeat: no-repeat;
     background-size: cover; 
