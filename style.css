@@ -16,7 +16,9 @@ body {
 
 .navbar {
     background: #949594;
-    height:120px;
+    height:100px;
+    position: fixed;
+    width: 100%;
 }
 
 .nav-link {
@@ -31,7 +33,7 @@ body {
 }
 
 .header-text {
-    font-size: 5vw;
+    font-size: 4vw;
 }
 
 .header-img {
@@ -39,4 +41,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center, center;
+}
+
+.explore {
+    width:100px;
 }
