@@ -34,8 +34,8 @@ body {
 
 .header-text {
     font-size: clamp(2.5rem, 4vw, 900px);
-    top: 1000px;
-    top: 200px;
+    position: relative;
+    top: clamp(10px, 6vw, 30px);
 }
 
 .header-img {
@@ -50,9 +50,16 @@ body {
     top: clamp(20px, 6vw, 50px);
 }
 
+span {
+    text-decoration: underline;
+    text-decoration-color: #9D1535;
+    text-decoration-skip-ink: none;
+}
+
 .explore {
     width: 100px;
     background: #949594;
+    color: white;
     border: none;
 }
 
@@ -60,10 +67,24 @@ body {
     background: #9d1535;
 }
 
-.vertical {
-    border-left: 3px solid #9d1535;
-    height: 300px;
-    position: absolute;
-    left: 50%;
-    top:800px;
+.explore:active {
+    background: #9d1535;
+    border: white 2px solid;
+}
+
+.why-stevens-row {
+    position: relative;
+    top: 50px;
+}
+
+.why-stevens1 {
+    border-right:#9D1535 2px solid;
+    height:200px;
+}
+.why-stevens2 {
+}
+
+hr {
+    color: #9D1535;
+    
 }
