@@ -78,7 +78,10 @@ span {
 }
 
 .why-stevens1 {
-    border-right:#9D1535 2px solid;
+    background: url(imgs/STIT-why-stevens.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center, center;
     height:200px;
 }
 .why-stevens2 {
