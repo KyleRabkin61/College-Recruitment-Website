@@ -85,9 +85,16 @@ span {
     height:200px;
 }
 .why-stevens2 {
+    padding: 10px;
 }
 
 hr {
     color: #9D1535;
-    
+    position: relative;
+    top: 50px;
+}
+
+.major-img {
+    position: center, center;
+    width:clamp(200px, 18vw, 900px);
 }
