@@ -20,8 +20,6 @@ const majors = [
 ]
 
 function generateMajorCards() {
-
-    console.log('fire')
     const majorCardsContainer = document.getElementById('topMajors');
 
     majors.forEach((major) => {
