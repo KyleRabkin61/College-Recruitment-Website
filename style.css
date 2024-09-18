@@ -17,9 +17,13 @@ body {
 /* navbar css */
 
 .navbar {
-    background: #949594;
     width: 100%;
     z-index: 3;
+    transition: all 0.25s;
+}
+
+.navbar-scrolled {
+  background: #949594;
 }
 
 .nav-link {
@@ -59,7 +63,7 @@ body {
   .toggler-icon {
     display: block;
     position: absolute;
-    height: 3px;
+    height: 4px;
     width: 100%;
     background-color: #ffffff;
     border-radius: 1px;
@@ -104,8 +108,10 @@ body {
     transform: rotate(0deg);
   }
 
+/* header css */
+
 .header {
-    height: 600px;
+    height: 800px;
     background: #9D1535;
     color: #FFFFFE;
 }
@@ -113,6 +119,7 @@ body {
 .header-text {
     font-size: clamp(2.5rem, 4vw, 900px);
     position: relative;
+    top: clamp(10px,3vw,11px);
 }
 
 .header-img {
@@ -124,7 +131,7 @@ body {
 
 .header-imgtext {
     position: relative;
-    top: clamp(20px, 6vw, 50px);
+    top: clamp(10px, 6vw, 40px);
 }
 
 .underline {
@@ -229,7 +236,7 @@ mark {
     border-radius: 10px;
     font-size: 18px;
     font-family: "Urbanist", sans-serif;
-    transition: 0.3s;
+    transition: all 0.3s;
   }
   
   #myBtn:hover {

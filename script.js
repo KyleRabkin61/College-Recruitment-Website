@@ -65,7 +65,7 @@ let mybutton = document.getElementById("myBtn");
 window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    if (document.body.scrollTop > 56 || document.documentElement.scrollTop > 56) {
         mybutton.style.display = "block";
     } else {
         mybutton.style.display = "none";
@@ -77,3 +77,15 @@ function topFunction() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+// changes navbar background color on scroll
+
+let nav = document.querySelector('.navbar')
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 56) {
+        nav.classList.add('navbar-scrolled');
+    }else if (window.scrollY < 56) {
+        nav.classList.remove('navbar-scrolled')
+    }
+})
