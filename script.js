@@ -33,13 +33,13 @@ function generateMajorCards() {
 
     majors.forEach((major) => {
         const card = document.createElement('div');
-        card.classList.add('col-12', 'col-md-6', 'col-lg-4', 'p-4');
+        card.classList.add('col-12', 'col-lg-6', 'col-xl-4', 'p-4');
 
         card.innerHTML = `
             <div class = "card p-c h-100" id = "card">
                 <img src = "${major.img}" class = "card-img-top">
                 <div class = "card-body text-center">
-                    <h5 class="card-title">${major.name}</h5>
+                    <h5 class="card-title"><span class="underline">${major.name}</span></h5>
                     <p class="card-text">
                         <li>${major.li1}</li>
                         <br>

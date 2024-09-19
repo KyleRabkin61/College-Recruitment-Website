@@ -184,8 +184,14 @@ body {
   top: 50px;
 }
 
-.why-stevens-text {
+.why-stevens-title {
   font-family: "Barlow", sans-serif;
+}
+
+.why-stevens-text {
+  font-family: "Quicksand", sans-serif;
+  color: black;
+  font-size: 18px;
 }
 
 .why-stevens1 {
@@ -198,7 +204,6 @@ body {
 .why-stevens2 {
   height:450px;
   border: #9D1535 5px solid;
-  font-family: "Quicksand", sans-serif;
 }
 
 mark {
@@ -226,12 +231,19 @@ mark {
   top: 160px;
 }
 
+.card {
+  border: #9D1535 5px solid;
+  border-radius:10px;
+}
+
 .card-title {
   font-family: "Barlow", sans-serif;
+  color: #9D1535;
 }
 
 .card-text {
   font-family: "Quicksand", sans-serif;
+  color: black;
 }
 
 .major-img {
