@@ -1,19 +1,28 @@
 const majors = [
     {
         name: 'Mechanical Engineering',
-        description: 'hello',
+        li1: "Roughly 900 students enrolled.",
+        li2: "Average starting salary of $72,100.",
+        li3: "$6.5 million in research expenditures.",
+        li4: "96% of undergraduates secured jobs or continuing education.",
         img: 'imgs/STIT-mechanical-engineering.jpg',
-        link: 'https://www.stevens.edu/program/mechanical-engineering-masters'
+        link: 'https://www.stevens.edu/school-engineering-science/departments/mechanical-engineering'
     },
     {
         name: 'Computer Science',
-        description: 'helloo',
+        li1: "Roughly 800 students enrolled.",
+        li2: "Average starting salary of $99,800.",
+        li3: "Top 100 computer science program in the country.",
+        li4: "95% of computer science graduates in 2023 had career outcomes.",
         img: 'imgs/STIT-computer-science.png',
-        link: 'https://www.stevens.edu/program/computer-science-bachelor-degree'
+        link: 'https://www.stevens.edu/school-engineering-science/departments/computer-science'
     },
     {
         name: 'Cyber Security',
-        description: 'hellooo',
+        li1: "Average compensation of $90,750.",
+        li2: "Average starting salary of $94,000",
+        li3: "7th in the nation for cyber security.",
+        li4: "95% employed with the first 3 months of graduation",
         img: 'imgs/STIT-cyber-security.png',
         link: 'https://www.stevens.edu/program/cybersecurity-bachelor-degree'
     }
@@ -31,7 +40,15 @@ function generateMajorCards() {
                 <img src = "${major.img}" class = "card-img-top">
                 <div class = "card-body text-center">
                     <h5 class="card-title">${major.name}</h5>
-                    <p class="card-text">${major.description}</p>
+                    <p class="card-text">
+                        <li>${major.li1}</li>
+                        <br>
+                        <li>${major.li2}</li>
+                        <br>
+                        <li>${major.li3}</li>
+                        <br>
+                        <li>${major.li4}</li>
+                    </p>
                     <a href="${major.link}" target="_blank" class="btn more-info-btn">More Information</a>
                 </div>
             </div>
@@ -45,15 +62,6 @@ function generateMajorCards() {
 }
 
 window.onload = generateMajorCards();
-
-{/* <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div> */}
 
 
 //  Back to top button
