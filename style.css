@@ -28,7 +28,7 @@ body {
 
 .nav-link {
     color: white;
-    width:125px;
+    width:124px;
     font-weight: bold;
     transition: 0.25s;
     position: relative;
@@ -177,6 +177,70 @@ body {
   border: white 2px solid;
 }
 
+/* collage css */
+
+.collage {
+  height: 800px;
+}
+
+.collage-img-1 {
+  background: url(imgs/STIT-big-stevens-building.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:right;
+  height:300px;
+  width: 250px;
+  position: absolute;
+  top: 850px;
+  left:clamp(20px,27vw,700px);
+  opacity: 0.5;
+  transition: 0.25s;
+  z-index: 1;
+}
+
+.collage-img-1:hover {
+  opacity: 1;
+  transition: 0.25s;
+}
+
+.collage-img-2 {
+  background: url(imgs/STIT-two-buildings.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center,center;
+  height:300px;
+  width: 200px;
+  position: absolute;
+  top: 980px;
+  left:40%;
+  opacity: 0.5;
+  transition: 0.25s;
+  z-index: 2;
+}
+
+.collage-img-2:hover {
+  opacity: 1;
+  transition: 0.25s;
+}
+.collage-img-3 {
+  background: url(imgs/STIT-white-inside-buiding.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center,center;
+  height:200px;
+  width: 300px;
+  position: absolute;
+  top: 1210px;
+  left: clamp(200px,45vw,1000px);
+  opacity: 0.5;
+  transition: 0.25s;
+  z-index: 3;
+}
+
+.collage-img-3:hover {
+  opacity: 1;
+  transition: 0.25s;
+}
 /* why stevens css */
 
 .why-stevens-row {
@@ -211,7 +275,15 @@ mark {
   background: #9D1535;
 }
 
-.seperator {
+.seperator-1 {
+  border: 3px solid #9D1535;
+  opacity: 1;
+  color: #9D1535;
+  position: relative;
+  top: 40px;
+}
+
+.seperator-2 {
   border: 3px solid #9D1535;
   opacity: 1;
   color: #9D1535;
