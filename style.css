@@ -18,7 +18,7 @@ body {
 
 .navbar {
     width: 100%;
-    z-index: 3;
+    z-index: 20;
     transition: all 0.25s;
 }
 
@@ -180,7 +180,7 @@ body {
 /* collage css */
 
 .collage {
-  height: 800px;
+  height: clamp(800px, 65vw, 3000px);
 }
 
 .collage-img-1 {
@@ -188,14 +188,14 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position:right;
-  height:300px;
-  width: 250px;
+  height:clamp(150px, 20vw, 400px);
+  width: clamp(200px, 24vw, 600px);
   position: absolute;
   top: 850px;
-  left:clamp(20px,27vw,700px);
+  left:clamp(10px,16vw,700px);
   opacity: 0.5;
   transition: 0.25s;
-  z-index: 1;
+  z-index: 2;
 }
 
 .collage-img-1:hover {
@@ -208,14 +208,14 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center,center;
-  height:300px;
-  width: 200px;
+  height:clamp(500px,50vw,900px);
+  width: clamp(300px,45vw,750px);
   position: absolute;
   top: 980px;
-  left:40%;
-  opacity: 0.5;
+  left:clamp(80px,24vw,800px);
+  opacity: 0.8;
   transition: 0.25s;
-  z-index: 2;
+  z-index: 1;
 }
 
 .collage-img-2:hover {
@@ -227,11 +227,11 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center,center;
-  height:200px;
-  width: 300px;
+  height:clamp(150px, 20vw, 350px);
+  width: clamp(200px, 24vw, 650px);;
   position: absolute;
-  top: 1210px;
-  left: clamp(200px,45vw,1000px);
+  top: clamp(1390px, 85vw, 3500px);
+  left: clamp(150px, 47vw, 1500px);
   opacity: 0.5;
   transition: 0.25s;
   z-index: 3;
