@@ -1,6 +1,7 @@
 const majors = [
     {
         name: 'Mechanical Engineering',
+        description: 'Mechanical engineering is a broad engineering field that involves the design, development, and testing of machines and other systems that move. Mechanical engineers use the principles of motion, energy, and force to ensure their designs are safe, efficient, and cost-effective.',
         li1: "Roughly 900 students enrolled.",
         li2: "Average starting salary of $72,100.",
         li3: "$6.5 million in research expenditures.",
@@ -10,6 +11,7 @@ const majors = [
     },
     {
         name: 'Computer Science',
+        description: 'Computer science focuses on the development and testing of software and software systems. It involves working with mathematical models, data analysis and security, algorithms, and computational theory.',
         li1: "Roughly 800 students enrolled.",
         li2: "Average starting salary of $99,800.",
         li3: "Top 100 computer science program in the country.",
@@ -19,6 +21,7 @@ const majors = [
     },
     {
         name: 'Cyber Security',
+        description: "Cybersecurity is the practice of protecting internet-connected devices and services from cyberthreats. It's used by individuals and businesses to protect against unauthorized access to data, theft, or damage to devices and services.",
         li1: "Average compensation of $90,750.",
         li2: "Average starting salary of $94,000",
         li3: "7th in the nation for cyber security.",
@@ -41,6 +44,7 @@ function generateMajorCards() {
                 <div class = "card-body text-center">
                     <h5 class="card-title"><span class="underline">${major.name}</span></h5>
                     <p class="card-text">
+                        ${major.description}
                         <li>${major.li1}</li>
                         <br>
                         <li>${major.li2}</li>
