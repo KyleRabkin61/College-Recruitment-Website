@@ -11,7 +11,7 @@
 */
 
 body {
-  height: 500vw;
+  height: 100%
 }
 
 /* navbar css */
@@ -278,62 +278,32 @@ mark {
   border: 3px solid #9D1535;
   opacity: 1;
   color: #9D1535;
-  position: relative;
-  top: 40px;
+  margin-top: 40px;
 }
 
 .seperator-2 {
   border: 3px solid #9D1535;
   opacity: 1;
   color: #9D1535;
-  position: relative;
-  top: 100px;
+  margin-top: 150px;
 }
 
 .seperator-3 {
   border: 3px solid #9D1535;
   opacity: 1;
   color: #9D1535;
-  position: relative;
-  top: 150px;
-}
-
-.student-life {
-  position: relative;
-  height: 200px;
-  top: 200px;
-}
-
-.student-life-text {
-  background: url(imgs/STIT-student-life.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center, center;
-  height:450px;
-}
-
-.student-life-title {
-  font-family: "Barlow", sans-serif;
-}
-
-.student-life-description {
-  background-color:white;
-  border: #9D1535 5px solid;
-  color: white;
-  height:450px;
-  font-size: 20px;
+  margin-top: 80px;
 }
 
 .top-majors-title {
   font-family: "Barlow", sans-serif;
   color: #9D1535;
-  position: relative;
-  top: 160px;
+
+  margin-top: 100px;
 }
 
 .top-majors {
-  position: relative;
-  top: 160px;
+  margin-top: 100px;
 }
 
 .card {
@@ -374,9 +344,38 @@ mark {
   border: white 2px solid;
 }
 
-/* footer */
+/* student life css*/
+
+.student-life {
+  height: 200px;
+  margin-top: 100px;
+}
+
+.student-life-text {
+  background: url(imgs/STIT-student-life.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center, center;
+  height:450px;
+}
+
+.student-life-title {
+  font-family: "Barlow", sans-serif;
+}
+
+.student-life-description {
+  background-color:white;
+  border: #9D1535 5px solid;
+  color: black;
+  height:450px;
+  font-size: 20px;
+}
+
+/* footer css*/
 
 footer {
+  margin-top: 300px;
+  bottom: 0;
   width: 100%;
   background: #949594;
 }
