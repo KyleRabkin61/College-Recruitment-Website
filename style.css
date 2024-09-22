@@ -388,6 +388,7 @@ footer {
   font-weight: 600;
   font-family: "Barlow", sans-serif;
   text-transform: uppercase;
+  color: #9D1535;
 }
 
 .box .address {
@@ -395,6 +396,11 @@ footer {
   font-weight: 600;
   font-family: "Barlow", sans-serif;
   text-transform: uppercase;
+  color: #9D1535;
+}
+
+.address-icon {
+  color: #9D1535;
 }
 
 .box .content {
