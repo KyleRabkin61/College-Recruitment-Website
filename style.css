@@ -351,14 +351,6 @@ mark {
   margin-top: 100px;
 }
 
-.student-life-text {
-  background: url(imgs/STIT-student-life.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center, center;
-  height:450px;
-}
-
 .student-life-title {
   font-family: "Barlow", sans-serif;
 }
@@ -369,6 +361,13 @@ mark {
   color: black;
   height:450px;
   font-size: 20px;
+  margin-bottom: 210px;
+}
+
+.student-life-text {
+  font-family: "Quicksand", sans-serif;
+  color: black;
+  font-size: 16px;
 }
 
 /* footer css*/
@@ -380,6 +379,62 @@ footer {
   background: #949594;
 }
 
+.box {
+  padding: 20px;
+}
+
+.box .abt-us {
+  font-size: 1.125rem;
+  font-weight: 600;
+  font-family: "Barlow", sans-serif;
+  text-transform: uppercase;
+}
+
+.box .address {
+  font-size: 1.125rem;
+  font-weight: 600;
+  font-family: "Barlow", sans-serif;
+  text-transform: uppercase;
+}
+
+.box .content {
+  margin: 20px 0 0 0;
+}
+
+.box p {
+  font-family: "Quicksand", sans-serif;
+}
+
+.box .text {
+  font-family: "Quicksand", sans-serif;
+}
+
+.social a {
+  padding: 0 2px;
+}
+
+.social a span {
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  transition: 0.25s;
+  box-shadow: #503b3b 0px 4px 20px 1px;
+}
+
+.social a span:hover {
+  background: #9D1535;
+  color: white;
+  transition: 0.25s;
+}
+
+.stevens-credit {
+  font-size: 20px;
+  font-family: "Barlow", sans-serif;
+}
 /* back to top */
 
 #myBtn {
