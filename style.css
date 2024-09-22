@@ -202,6 +202,7 @@ body {
   opacity: 0.5;
   transition: 0.25s;
   z-index: 2;
+  border: #9D1535 5px solid;
 }
 
 .collage-img-1:hover {
@@ -218,9 +219,10 @@ body {
   width: clamp(250px,43vw,450px);
   position: absolute;
   top: 880px;
-  opacity: 0.8;
+  opacity: 0.5;
   transition: 0.25s;
   z-index: 1;
+  border: #9D1535 5px solid;
 }
 
 .collage-img-2:hover {
@@ -240,6 +242,7 @@ body {
   opacity: 0.5;
   transition: 0.25s;
   z-index: 3;
+  border: #9D1535 5px solid;
 }
 
 .collage-img-3:hover {
@@ -383,7 +386,7 @@ footer {
   margin-top: 300px;
   bottom: 0;
   width: 100%;
-  background: #949594;
+  background: #9D1535;
 }
 
 .box {
@@ -407,7 +410,7 @@ footer {
 }
 
 .address-icon {
-  color: #9D1535;
+  color: white;
   padding-bottom: 10px;
 }
 
@@ -449,6 +452,14 @@ footer {
 
 .stevens-credit {
   font-size: 20px;
+  font-family: "Barlow", sans-serif;
+  color: white;
+}
+
+.my-credits {
+  background: #830f2a;
+  font-size: 15px;
+  padding: 10px;
   font-family: "Barlow", sans-serif;
   color: white;
 }
